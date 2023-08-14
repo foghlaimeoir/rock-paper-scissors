@@ -87,25 +87,25 @@ function getComputerChoice() {
 function updateChoices(playerSelection, computerSelection) {
     switch (playerSelection) {
         case 'ROCK':
-            playerChoice.textContent = '✊'
+            playerChoice.textContent = '🪨'
             break
         case 'PAPER':
-            playerChoice.textContent = '✋'
+            playerChoice.textContent = '📄'
             break
         case 'SCISSORS':
-            playerChoice.textContent = '✌'
+            playerChoice.textContent = '✂️'
             break
     }
 
     switch (computerSelection) {
         case 'ROCK':
-            computerChoice.textContent = '✊'
+            computerChoice.textContent = '🪨'
             break
         case 'PAPER':
-            computerChoice.textContent = '✋'
+            computerChoice.textContent = '📄'
             break
         case 'SCISSORS':
-            computerChoice.textContent = '✌'
+            computerChoice.textContent = '✂️'
             break
     }
 }
