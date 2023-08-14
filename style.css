@@ -47,6 +47,7 @@ body {
 .choice {
     font-size: 80px;
     margin-bottom: 10px;
+    height: 100px;
 }
 
 .buttons {
