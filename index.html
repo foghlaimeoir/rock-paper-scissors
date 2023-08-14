@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/arcade-classic" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="title">Rock Paper Scissors</h1>
+    </header>
+    <div class="main-container">
+        <div class="scoreboard">
+            <h2 id="score-info" class="score-info">Beat the computer!</h2>
+            <h3 id="score-message" class="score-message">First to score 5 points wins.</h3>
+            <div class="score-container">
+                <div class="score-box">
+                    <div id="player-choice" class="choice">?</div>
+                    <p id="player-score" class="score">Player: 0</p>
+                </div>
+                <div class="score-box">
+                    <div id="computer-choice" class="choice">?</div>
+                    <p id="computer-score" class="score">Computer: 0</p>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="rock-button" class="button button-square">
+                <div class="emoji">✊</div>
+            </button>
+            <button id="paper-button" class="button button-square">
+                <div class="emoji">✋</div>
+            </button>
+            <button id="scissors-button" class="button button-square">
+                <div class="emoji">✌️</div>
+            </button>
+        </div>
+    </div>
+    <footer></footer>
+    <div id="endgame-modal" class="modal">
+        <p id="endgame-message" class="modal-title"></p>
+        <button id="restart-button" class="button">Play again</button>
+    </div>
+    <div id="overlay" class="overlay"></div>
+    <script src="script.js"></script>
+
+</body>
+</html>
